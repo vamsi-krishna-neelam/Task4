@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #39b0aa; /* Alice Blue */
+    color: #333; /* Dark text */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #4080ce; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff6347; /* Tomato */
+    text-align: center;
+}
+
+input[type="text"], input[type="datetime-local"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #4682b4; /* Steel Blue */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Unique colors for buttons */
+button.add {
+    background-color: #800080; /* Purple */
+}
+
+button.add:hover {
+    background-color: #6a007a; /* Darker Purple */
+}
+
+button.complete {
+    background-color: #32cd32; /* Lime Green */
+}
+
+button.complete:hover {
+    background-color: #28a745; /* Darker Green */
+}
+
+button.edit {
+    background-color: #1e90ff; /* Dodger Blue */
+}
+
+button.edit:hover {
+    background-color: #1c7ed6; /* Darker Blue */
+}
+
+button.delete {
+    background-color: #ff4500; /* Orange Red */
+}
+
+button.delete:hover {
+    background-color: #dc3545; /* Darker Red */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Different colors for list items */
+li:nth-child(odd) {
+    background-color: #e6e6fa; /* Lavender */
+}
+
+li:nth-child(even) {
+    background-color: #ffe4e1; /* Misty Rose */
+}
+
+li:hover {
+    background-color: #dcdcdc; /* Gainsboro */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #808080; /* Gray */
+}
